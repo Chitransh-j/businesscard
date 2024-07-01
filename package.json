@@ -1,20 +1,20 @@
 {
-  "name": "natterstefan",
+  "name": "chitranshjawere",
   "version": "1.2.0",
-  "description": "Stefan Natter (@natterstefan)'s business card",
+  "description": "Chitransh's business card",
   "main": "./bin/card.js",
   "bin": {
-    "natterstefan": "./bin/card.js"
+    "chitranshjawere": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/natterstefan/businesscard.git"
+    "url": "https://github.com/Chitransh-j/businesscard"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "Stefan Natter",
+  "author": "Chitransh Jawere",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.0.0",

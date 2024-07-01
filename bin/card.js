@@ -14,27 +14,24 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Stefan Natter'),
-  handle: chalk.cyan('@natterstefan'),
+  name: chalk.white('Chitransh Jawere'),
+  handle: chalk.cyan('@chitranshj'),
   labelWork: chalk.white.bold('      Work:'),
-  work: chalk.white('CEO and Co-Founder of marqant digital'),
+  work: chalk.white('Currently learning Microservices and system design.'),
   labelTwitter: chalk.white.bold('   Twitter:'),
-  twitter: chalk.cyan('https://twitter.com/natterstefan'),
+  twitter: chalk.cyan('https://x.com/ChitranshJawere'),
   labelGitHub: chalk.white.bold('    GitHub:'),
-  github: chalk.cyan('https://github.com/natterstefan'),
+  github: chalk.cyan('https://github.com/Chitransh-j'),
   labelLinkedIn: chalk.white.bold('  LinkedIn:'),
-  linkedin: chalk.cyan('https://linkedin.com/in/natterstefan'),
+  linkedin: chalk.cyan('https://www.linkedin.com/in/chitransh-jawere/'),
   labelWeb: chalk.white.bold('       Web:'),
-  web: chalk.cyan('https://natterstefan.com'),
-  labelCard: chalk.white.bold('      Card:'),
-  npx: chalk.white('npx natterstefan'),
+  web: chalk.cyan('https://chitransh-portfolio-lake.vercel.app/'),
 }
 
 // Actual strings we're going to output
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
-const twittering = `${data.labelTwitter}  ${data.twitter}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
@@ -48,15 +45,11 @@ const output =
   newline +
   working +
   newline +
-  twittering +
-  newline +
   githubing +
   newline +
   linkedining +
   newline +
   webing +
-  newline +
-  newline +
-  carding
+  newline 
 
 console.log(chalk.green(boxen(output, options)))
