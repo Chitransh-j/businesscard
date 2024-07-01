@@ -16,8 +16,8 @@ const options = {
 const data = {
   name: chalk.white('Chitransh Jawere'),
   handle: chalk.cyan('@chitranshj'),
-  labelWork: chalk.white.bold('      Work:'),
-  work: chalk.white('Currently learning Microservices and system design.'),
+  labelWork: chalk.white.bold('     About:'),
+  work: chalk.white('Currently learning Microservices and computer networks. Looking for a full-time job.'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   twitter: chalk.cyan('https://x.com/ChitranshJawere'),
   labelGitHub: chalk.white.bold('    GitHub:'),
